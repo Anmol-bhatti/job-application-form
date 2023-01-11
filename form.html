@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form </title>
+    <link href="form1.css" rel="stylesheet">
+</head>
+<body> 
+    <form action="example.php">
+    <div class="container">
+        <h1 class="a1">Job Application Form</h1>
+       
+            <div class="borders"><br><br>
+               <div class="box1">
+                <label for="Name">Name<br><input type="text" class="t1" placeholder="name" required></label></div>
+            </div>
+            <div class="box2">
+                <label>E-mail<br><input type="email" placeholder="Mail@example.com" required></label></div>
+            
+            <div class="box3">
+                <label>Phone<br><input type="text" placeholder="Phone" required></label>
+            </div>
+            <div class="box4">
+                <label for="">Country</label><br>
+                <select class="b1" name="country" required>
+                        <option>india</option>
+                        <option>canada</option>
+                        </select>
+                </label>
+            </div>
+            <div class="box5">
+                <label for="">What Position Are You Applying For?</label><br>
+                <select class="b2" name="Position" required><br>
+                    <option>Job-1</option>
+                    <option>Job-2</option>
+                </select>
+            <div class="box6" aria-required="true">
+                <label for="" >What is your current employment status?</label>
+              <br>  <input type="checkbox"><label>Employe</label>
+              <input type="checkbox" class="c2"><label class="c2">Unemployee</label>
+              <br><input type="checkbox"><label>Student</label> <input type="checkbox" class="c3"><label class="c3">Self-Employment</label>
+            </div>
+            <div class="box7">
+                <label for="">Upload your resume</label>
+                <br><input type="file" name="upload" class="upload">
+            </div>
+            <input type="submit" name="Submit now" class="sb">
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
